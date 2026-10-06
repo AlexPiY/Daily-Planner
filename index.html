@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <title>Daily Planner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>📅 Planificator Zilnic</h1>
+        
+        <div class="input-section">
+            <div class="inputs-column">
+                <input type="text" id="taskInput" placeholder="Titlu task...">
+                <textarea id="taskDesc" placeholder="Explică despre ce e vorba (opțional)..."></textarea>
+            </div>
+            <button onclick="addTask()">Adaugă</button>
+        </div>
+        <ul id="taskList">
+            </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
